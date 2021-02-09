@@ -20,9 +20,7 @@ function launch(event) {
   }
   launchButton.addEventListener('click', launch)
 function colorChanger(event) {
-    console.log(document.html)
     document.documentElement.style.backgroundColor = 'red'
-    
 }
   launchButton.addEventListener('click', colorChanger)
 
