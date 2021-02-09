@@ -44,12 +44,12 @@ launchButton.addEventListener('click', function (event) {
 // 👉 TASK 3- Create a function that launches!
 // It should open the confirmation modal.
 // Add it as an event listener for click events on the launch button.
-function modalOff (event) {
+function launch (event) {
     modal.classList.remove("off");
     successMessage.classList.add('off');
     failureMessage.classList.add('off')
 }
-launchButton.addEventListener("click", modalOff);
+launchButton.addEventListener("click", launch);
 
 
 // 👉 TASK 4- Create a function to confirm the launch.
