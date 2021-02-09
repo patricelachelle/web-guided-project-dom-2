@@ -29,7 +29,8 @@ launchButton.addEventListener('click', function (event) {
   launchButton.addEventListener('click', function(event) {
       console.log(`
         event type:    ${event.type}
-        event target:  $
+        event target:  ${event.target.nodeName}
+        timestamp:     ${Math.floor(event.timeStamp)}
       `);
   })
 
