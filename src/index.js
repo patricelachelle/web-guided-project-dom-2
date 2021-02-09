@@ -84,7 +84,8 @@ document.addEventListener( "keydown", function ( event ) {
 // It should also console.log the CURRENT target 🧭 of the event.
 // Play with stopPropagation and stopImmediatePropagation.
 Array.from(document.all).forEach(elem => {
-    console.log();
+    console.log('🎯 target', event.target);
+    console.log('🧭 current target');
 })
 
 
