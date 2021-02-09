@@ -47,6 +47,7 @@ launchButton.addEventListener('click', function (event) {
 function modalOff (event) {
     modal.classList.remove("off");
     successMessage.classList.add('off');
+    failureMessage.classList.add('off')
 }
 launchButton.addEventListener("click", modalOff);
 
