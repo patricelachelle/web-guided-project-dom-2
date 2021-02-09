@@ -34,7 +34,10 @@ launchButton.addEventListener('click', function (event) {
       `);
   })
 
-  
+  Array.from(document.links).forEach(link => {
+      
+  })
+
 
 // 👉 TASK 3- Create a function that launches!
 // It should open the confirmation modal.
