@@ -86,7 +86,7 @@ document.addEventListener( "keydown", function ( event ) {
 Array.from(document.all).forEach(elem => elem.addEventListener('click', event => {
     console.log('🎯 target', event.target);
     console.log('🧭 current target', event.currentTarget);
-    event,.st
+    event.stopPropagation()
 }))
 
 
