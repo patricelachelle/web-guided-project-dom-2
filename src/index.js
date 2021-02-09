@@ -16,13 +16,13 @@ const modal = document.querySelector('div.modal')
 
 function launch(event) {
     modal.classList.remove('off')
-    event.stopImmediatePropagation()
-  }
-  launchButton.addEventListener('click', launch)
+}
+launchButton.addEventListener('click', colorChanger)
+launchButton.addEventListener('click', launch)
 function colorChanger(event) {
     document.documentElement.style.backgroundColor = 'red'
+    event.stopImmediatePropagation()
 }
-  launchButton.addEventListener('click', colorChanger)
 
 
 // 👉 TASK 2- Demo handling click events on button#launchButton, using:
