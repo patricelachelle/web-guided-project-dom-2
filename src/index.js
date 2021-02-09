@@ -35,7 +35,9 @@ launchButton.addEventListener('click', function (event) {
   })
 
   Array.from(document.links).forEach(link => {
-      
+      link.addEventListener('click', function (event) {
+          event.preventDefault()
+      })
   })
 
 
