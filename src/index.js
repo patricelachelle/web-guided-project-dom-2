@@ -45,7 +45,7 @@ launchButton.addEventListener('click', function (event) {
 // It should open the confirmation modal.
 // Add it as an event listener for click events on the launch button.
 function modalOff (event) {
-    modal.classList.toggle("off");
+    modal.classList.remove("off");
 }
 
 launchButton.addEventListener("click", modalOff);
