@@ -14,6 +14,18 @@ const failureMessage = document.querySelector('h1.failure')
 // C- MODAL
 const modal = document.querySelector('div.modal')
 
+function launch(event) {
+    modal.classList.remove('off')
+    event.stopImmediatePropagation()
+  }
+  launchButton.addEventListener('click', launch)
+function colorChanger(event) {
+    console.log(document.html)
+    document.documentElement.style.backgroundColor = 'red'
+    
+}
+  launchButton.addEventListener('click', colorChanger)
+
 
 // 👉 TASK 2- Demo handling click events on button#launchButton, using:
 //  A- HTML inside index.html
@@ -44,12 +56,12 @@ launchButton.addEventListener('click', function (event) {
 // 👉 TASK 3- Create a function that launches!
 // It should open the confirmation modal.
 // Add it as an event listener for click events on the launch button.
-function launch (event) {
-    modal.classList.remove("off");
-    successMessage.classList.add('off');
-    failureMessage.classList.add('off')
-}
-launchButton.addEventListener("click", launch);
+// function launch (event) {
+//     modal.classList.remove("off");
+//     successMessage.classList.add('off');
+//     failureMessage.classList.add('off')
+// }
+// launchButton.addEventListener("click", launch);
 
 
 // 👉 TASK 4- Create a function to confirm the launch.
