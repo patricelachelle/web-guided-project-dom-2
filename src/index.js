@@ -64,6 +64,7 @@ confirmButton.addEventListener('click', (e) => {
 // Add it as a listener for clicks on the cancellation button.
 
 
+
 // 👉 TASK 6- Create a function that closes the modal if
 // the user hits the Escape key on their keyboard.
 // Add it as an event listener for 'keydown' events on document.
