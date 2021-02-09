@@ -28,7 +28,8 @@ launchButton.addEventListener('click', function (event) {
 
   launchButton.addEventListener('click', function(event) {
       console.log(`
-        event type:   
+        event type:    ${event.type}
+        event target:  $
       `);
   })
 
