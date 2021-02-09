@@ -46,6 +46,7 @@ launchButton.addEventListener('click', function (event) {
 // Add it as an event listener for click events on the launch button.
 function modalOff (event) {
     modal.classList.remove("off");
+    successMessage.classList.add('off');
 }
 launchButton.addEventListener("click", modalOff);
 
